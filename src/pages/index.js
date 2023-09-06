@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.scss'
 import Hero from '@/components/hero'
+import Choose_us from '@/components/choose_us/Choose_us'
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main}`}>
         <Hero />
+        <Choose_us />
       </main>
     </>
   )
