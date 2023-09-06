@@ -1,0 +1,51 @@
+.Services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .__cardWrap {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .__card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      padding: 35px;
+      width: 50%;
+      height: 313px;
+      background-color: $grigio;
+      text-align: center;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+      transition: all 0.35s ease-in-out;
+
+      &:hover {
+        box-shadow: 0 0 15px $rosa;
+      }
+
+      .__title {
+        color: $oro-rosa;
+      }
+
+      .__p {
+        color: $argento;
+      }
+    }
+
+  }
+
+  .__image {
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+  }
+
+}
