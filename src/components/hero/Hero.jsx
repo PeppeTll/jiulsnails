@@ -21,63 +21,83 @@ import slide3 from "@/assets/slide-img-3.png";
 const Hero = () => {
 	return (
 		<div className={styles.Hero}>
-			<Swiper
-				className={styles.__slider}
-				spaceBetween={30}
-				effect={"fade"}
-				// centeredSlides={true}
-				autoplay={{
-					delay: 2500,
-					disableOnInteraction: false,
-				}}
-				pagination={{
-					clickable: true,
-				}}
-				modules={[Autoplay, Pagination, EffectFade]}
-			>
-				<SwiperSlide>
-					<div className={styles.__slide}>
-						<div className={styles.__text}>
-							<h1 className={styles.__h1}>Per la cura delle tue unghia</h1>
-							<p className={styles.__p}>
-								Lorem ipsum dolor sit amet consectetur. Sunt nemo nostrum porro
-								officiis et? Quae minus obcaecati aliquam aut laudantium.
-							</p>
+			<div className={styles.__container}>
+				<Swiper
+					className={styles.__slider}
+					spaceBetween={30}
+					effect={"fade"}
+					// centeredSlides={true}
+					autoplay={{
+						delay: 2500,
+						disableOnInteraction: false,
+					}}
+					pagination={{
+						clickable: true,
+					}}
+					modules={[Autoplay, Pagination, EffectFade]}
+				>
+					<SwiperSlide>
+						<div className={styles.__slide}>
+							<div className={styles.__text}>
+								<h1 className={styles.__h1}>Per la cura delle tue unghia</h1>
+								<p className={styles.__line}></p>
+								<p className={styles.__p}>
+									Lorem ipsum dolor sit amet consectetur. Sunt nemo nostrum
+									porro officiis et? Quae minus obcaecati aliquam aut
+									laudantium.
+								</p>
+							</div>
+							<figure className={styles.__figure}>
+								<Image
+									src={slide1}
+									alt={"slide 1"}
+									className={styles.__image}
+								/>
+							</figure>
 						</div>
-						<figure className={styles.__figure}>
-							<Image src={slide1} alt={"slide 1"} className={styles.__image} />
-						</figure>
-					</div>
-				</SwiperSlide>
-				<SwiperSlide>
-					<div className={styles.__slide}>
-						<div className={styles.__text}>
-							<h1 className={styles.__h1}>Per la cura delle tue unghia</h1>
-							<p className={styles.__p}>
-								Lorem ipsum dolor sit amet consectetur. Sunt nemo nostrum porro
-								officiis et? Quae minus obcaecati aliquam aut laudantium.
-							</p>
+					</SwiperSlide>
+					<SwiperSlide>
+						<div className={styles.__slide}>
+							<div className={styles.__text}>
+								<h1 className={styles.__h1}>Per la cura delle tue unghia</h1>
+								<p className={styles.__line}></p>
+								<p className={styles.__p}>
+									Lorem ipsum dolor sit amet consectetur. Sunt nemo nostrum
+									porro officiis et? Quae minus obcaecati aliquam aut
+									laudantium.
+								</p>
+							</div>
+							<figure className={styles.__figure}>
+								<Image
+									src={slide2}
+									alt={"slide 1"}
+									className={styles.__image}
+								/>
+							</figure>
 						</div>
-						<figure className={styles.__figure}>
-							<Image src={slide2} alt={"slide 1"} className={styles.__image} />
-						</figure>
-					</div>
-				</SwiperSlide>
-				<SwiperSlide>
-					<div className={styles.__slide}>
-						<div className={styles.__text}>
-							<h1 className={styles.__h1}>Per la cura delle tue unghia</h1>
-							<p className={styles.__p}>
-								Lorem ipsum dolor sit amet consectetur. Sunt nemo nostrum porro
-								officiis et? Quae minus obcaecati aliquam aut laudantium.
-							</p>
+					</SwiperSlide>
+					<SwiperSlide>
+						<div className={styles.__slide}>
+							<div className={styles.__text}>
+								<h1 className={styles.__h1}>Per la cura delle tue unghia</h1>
+								<p className={styles.__line}></p>
+								<p className={styles.__p}>
+									Lorem ipsum dolor sit amet consectetur. Sunt nemo nostrum
+									porro officiis et? Quae minus obcaecati aliquam aut
+									laudantium.
+								</p>
+							</div>
+							<figure className={styles.__figure}>
+								<Image
+									src={slide3}
+									alt={"slide 1"}
+									className={styles.__image}
+								/>
+							</figure>
 						</div>
-						<figure className={styles.__figure}>
-							<Image src={slide3} alt={"slide 1"} className={styles.__image} />
-						</figure>
-					</div>
-				</SwiperSlide>
-			</Swiper>
+					</SwiperSlide>
+				</Swiper>
+			</div>
 		</div>
 	);
 };
