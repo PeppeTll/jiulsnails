@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.scss'
 import Hero from '@/components/hero'
 import Choose_us from '@/components/choose_us/Choose_us'
+import Services from '@/components/services'
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       <main className={`${styles.main}`}>
         <Hero />
         <Choose_us />
+        <Services />
       </main>
     </>
   )
