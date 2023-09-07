@@ -6,6 +6,7 @@ import Choose_us from '@/components/choose_us/Choose_us'
 import Services from '@/components/services'
 import Attestati from '@/components/attestati'
 import Testimonial from '@/components/testimonial'
+import Price from '@/components/price'
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
         <Services />
         <Attestati />
         <Testimonial />
+        <Price />
       </main>
     </>
   )
