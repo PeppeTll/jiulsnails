@@ -1,0 +1,76 @@
+.Testimonial {
+  width: 100%;
+  background-image: url("../../assets/parallax.jpg");
+  background-size: cover;
+  background-position: center;
+
+  .__title {
+    color: $oro-rosa;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 320px;
+      border: 1px solid $oro-rosa;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+
+    }
+  }
+
+  .__slider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+
+    .__card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      .__figure {
+        border: 2px solid $oro-rosa;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+        transition: all 0.35s ease-in-out;
+
+        &:hover {
+          box-shadow: 0 0 35px $oro-rosa;
+        }
+
+        .__image {
+          width: 100%;
+        }
+      }
+
+      .__text {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .__name {
+          color: $oro-rosa;
+          padding: 15px 0;
+        }
+
+        .__icon {
+          margin: 15px 0;
+        }
+
+        .__p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
