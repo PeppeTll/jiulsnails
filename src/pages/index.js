@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.scss'
 import Hero from '@/components/hero'
 import Choose_us from '@/components/choose_us/Choose_us'
 import Services from '@/components/services'
+import Attestati from '@/components/attestati'
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <Choose_us />
         <Services />
+        <Attestati />
       </main>
     </>
   )
