@@ -11,25 +11,20 @@
     background-color: $lilla;
     color: $bianco;
 
-    .__Header {
+    .__Footer {
       width: 1400px;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       padding: 15px;
 
 
       .__logo {
-        width: 70px;
-        height: 70px;
+        width: 200px;
+        height: 200px;
       }
 
       .__ul {
-        display: flex;
-        width: 800px;
-        justify-content: center;
-        gap: 28px;
-        align-items: center;
         font-size: 20px;
         font-family: 'Roboto',
           sans-serif;

@@ -1,6 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.scss'
+import Hero from '@/components/hero'
+import Choose_us from '@/components/choose_us/Choose_us'
+import Services from '@/components/services'
+import Attestati from '@/components/attestati'
+import Testimonial from '@/components/testimonial'
+import Price from '@/components/price'
 
 
 
@@ -14,7 +20,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-
+        <Hero />
+        <Choose_us />
+        <Services />
+        <Attestati />
+        <Testimonial />
+        <Price />
       </main>
     </>
   )
