@@ -7,6 +7,7 @@ import Services from '@/components/services'
 import Attestati from '@/components/attestati'
 import Testimonial from '@/components/testimonial'
 import Price from '@/components/price'
+import Reveal from '@/reveal'
 
 
 
@@ -20,12 +21,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-        <Hero />
-        <Choose_us />
-        <Services />
-        <Attestati />
-        <Testimonial />
-        <Price />
+        <Reveal>
+          <Hero />
+        </Reveal>
+        <Reveal>
+          <Choose_us />
+        </Reveal>
+        <Reveal>
+          <Services />
+        </Reveal>
+        <Reveal>
+          <Attestati />
+        </Reveal>
+        <Reveal>
+          <Testimonial />
+        </Reveal>
+        <Reveal>
+          <Price />
+        </Reveal>
       </main>
     </>
   )
