@@ -4,9 +4,6 @@ import styles from '@/styles/Home.module.scss'
 import Hero from '@/components/hero'
 import Choose_us from '@/components/choose_us/Choose_us'
 import Services from '@/components/services'
-import Attestati from '@/components/attestati'
-import Testimonial from '@/components/testimonial'
-import Price from '@/components/price'
 import Reveal from '@/reveal'
 
 
@@ -29,15 +26,6 @@ export default function Home() {
         </Reveal>
         <Reveal>
           <Services />
-        </Reveal>
-        <Reveal>
-          <Attestati />
-        </Reveal>
-        <Reveal>
-          <Testimonial />
-        </Reveal>
-        <Reveal>
-          <Price />
         </Reveal>
       </main>
     </>

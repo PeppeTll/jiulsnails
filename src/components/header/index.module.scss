@@ -8,16 +8,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $oro-rosa;
+    background-color: $rosa;
     opacity: 0.8;
     color: $bianco;
 
     .__Header {
       width: 1400px;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       padding: 15px;
+      gap: 150px;
 
 
       .__logo {
@@ -26,8 +27,8 @@
       }
 
       .__ul {
+        color: $oro-rosa;
         display: flex;
-        width: 800px;
         justify-content: center;
         gap: 28px;
         align-items: center;
