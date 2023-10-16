@@ -5,7 +5,7 @@ import jiuls from "@/assets/jiuls.jpg";
 
 const Self = () => {
 	return (
-		<div className={styles.Self}>
+		<div className={styles.self}>
 			<Image className={styles.__img} src={jiuls} alt="jiuls" />
 			<div className={styles.__article}>
 				<h2 className={styles.__title}>Lorem ipsum dolor sit.</h2>
